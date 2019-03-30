@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>IMAGE PALETTE GENERATOR</title>
+
+<style>
+
+body { background-color: grey;
+color:red;
+
+}
+
+#desc {
+ background-color: orange;
+ color: green;
+ word-wrap: break-word;
+}
+
+#title { 
+ background-color: black;
+}
+</style>
+
+</head>
+ <body>
+   <div id='title'>
+   <h1><center>COLOR PALETTE GENERATOR</center></h1>
+   </div>
+   <div>
+   <form action = "http://127.0.0.1:5000/upload" method = "POST"
+    enctype = "multipart/form-data">
+    <p id=desc>Choose the pictue you want to get a palette of </p>
+    <input type = "file" name = "file" /><br><br>
+    <input type = "submit" value="submit image"/>
+   </form>
+   <div>
+  
+ </body>
+</html>
